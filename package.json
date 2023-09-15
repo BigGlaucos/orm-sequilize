@@ -1,5 +1,5 @@
 {
-  "name": "orm-sequilize",
+  "name": "orm-sequelize",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
