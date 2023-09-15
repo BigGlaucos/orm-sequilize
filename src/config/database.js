@@ -9,3 +9,4 @@ module.exports = {
             underscored:true
         }
 }
+module.exports= User;
