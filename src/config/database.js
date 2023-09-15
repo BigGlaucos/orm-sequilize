@@ -1,9 +1,9 @@
 module.exports = {
     dialect:"mysql",
     host:"localhost",
-    username:"aluno_senai",
+    username:"aluno_medio",
     password:"@lunoSenai23.",
-    database:"sequilize",    
+    database:"sequelize",    
         define:{
             timestamps:true,
             underscored:true
