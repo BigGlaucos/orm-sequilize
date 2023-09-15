@@ -1,15 +1,18 @@
-const { Model, Datatypes } = require("sequelize");
+// Importando o Sequelize Model e os DataTypes necessários
+const { Model, DataTypes } = require("sequelize");
 
+// Definindo a classe User, que herda de Model
 class User extends Model {
-    static init(connection) {
-        super.init(
-            {
-                name: Datatypes.STRING,
-                email: Datatypes.STRING,
-            },
-            {
-                sequelize: connection,
-            }
-        );
-    }
+  // Método estático para inicializar o modelo
+  static init(connection) {
+    super.init(
+      {
+        name: DataTypes.STRING,
+        email: DataTypes.STRING,
+      },
+      {
+        sequelize: connection,
+      }
+    );
+  }
 }
