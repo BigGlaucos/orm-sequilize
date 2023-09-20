@@ -1,6 +1,3 @@
-// Exportando o modelo User
-module.exports = User;
-
 // Importando o módulo "path"
 const path = require("path");
 
@@ -9,3 +6,4 @@ module.exports = {
     config: path.resolve(__dirname, "src", "config", "database.js"), // Caminho para o arquivo de configuração do banco de dados
     "migrations-path": path.resolve(__dirname, "src", "database", "migrations"), // Caminho para as migrações do banco de dados
 };
+
