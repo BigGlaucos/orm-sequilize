@@ -14,6 +14,10 @@ module.exports = {
         type: Sequelize.STRING, // Change to the appropriate data type
         allowNull: false,
       },
+      email: {
+        type: Sequelize.STRING, // Change to the appropriate data type
+        allowNull: false,
+      },
       created_at: {
         type: Sequelize.DATE, // Change to the appropriate data type (e.g., DATE, DATETIME, TIMESTAMP)
         allowNull: false,
@@ -21,7 +25,7 @@ module.exports = {
       updated_at: {
         type: Sequelize.DATE, // Change to the appropriate data type (e.g., DATE, DATETIME, TIMESTAMP)
         allowNull: false,
-      },  
+      },
     });
   },
 
